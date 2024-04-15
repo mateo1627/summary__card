@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "red hat display";
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(/images/pattern-background-desktop.svg) ;
+
+background-color: hsl(225, 100%, 94%);
+    display: flex;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color: #fff;
+    height: 550px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 153, 0.258);
+    
+}
+.plan{
+    display: flex;
+   background-color: #00c1;
+   padding: 10px ;
+   border-radius: 10px;
+}
+.annual__price, .annual__plan {
+    margin: 0px 50px 0 20px;
+}
+.annual__price{
+    color: #999;
+}
+.annual__plan{
+    font-weight: 700;
+}
+.annual__main {
+    display: flex;
+    flex-direction: column;
+}
+.annual__change{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.bg__img {
+    width: 400px;
+border-radius: 15px 15px 0 0;
+}
+.container__bg_img{
+    display: flex;
+}
+.description{
+    text-align: center;
+    color: #999;
+    text-wrap: pretty;
+    width: 350px;
+
+}
+.btn {
+margin-top: 30px;
+border: none;
+background-color: #00c;
+padding: 15px;
+width: 300px;
+border-radius: 10px;
+color: #fff;
+font-weight: 700;
+}
+.btn__cancel{
+border: none;
+margin-top: 20px;
+color: #999;
+font-weight: 700;
+background-color: #fff;
+}
+.content__header{
+    text-align: center;
+}
+
+h1{
+    font-weight: 1000;
+}
+@media screen and (max-width:700px) {
+body {
+
+    width: 90vw;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+
+}
+}
